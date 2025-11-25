@@ -49,3 +49,15 @@ function showLunchMenu(arr) {
   }
   console.log(`Menu items: ${arr.join(", ")}`);
 }
+
+// calling functions
+addLunchToEnd(lunches, "Tacos");
+addLunchToEnd(["Pizza", "Tacos"], "Burger");
+addLunchToStart(lunches, "Sushi");
+addLunchToStart(["Burger", "Sushi"], "Pizza");
+removeLastLunch(["Stew", "Soup", "Toast"]);
+removeLastLunch(["Sushi", "Pizza", "Noodles"]);
+removeFirstLunch(["Salad", "Eggs", "Cheese"]);
+removeFirstLunch(["Sushi", "Pizza", "Burger"]);
+showLunchMenu(["Greens", "Corns", "Beans"]);
+showLunchMenu(["Pizza", "Burger", "Fries", "Salad"]);
