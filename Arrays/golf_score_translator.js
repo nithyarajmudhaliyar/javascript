@@ -16,3 +16,11 @@ function golfScore(par,strokes){
     return names[6];
   }
 } 
+// testing
+console.log(golfScore(1,1));
+console.log(golfScore(5,2));
+console.log(golfScore(5,4));
+console.log(golfScore(5,5));
+console.log(golfScore(5,6));
+console.log(golfScore(5,7));
+console.log(golfScore(5,9));
