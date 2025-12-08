@@ -31,3 +31,9 @@ function studentMsg(scores, studentScore) {
     return `Class average: ${average}. Your grade: ${grade}. You failed the course.`;
   }
 }
+
+//Testing
+console.log(getAverage([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]))
+console.log(getGrade(100))
+console.log(hasPassingGrade(100))
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37))
